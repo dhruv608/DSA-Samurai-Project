@@ -3,8 +3,7 @@ import axios from 'axios';
 import { 
   PlusIcon
 } from '@heroicons/react/24/outline';
-
-const API_BASE_URL = 'http://localhost:3001';
+import { API_BASE_URL } from '../config/config';
 
 const AdminDashboard = () => {
   const [message, setMessage] = useState('');
