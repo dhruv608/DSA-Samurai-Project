@@ -1,8 +1,8 @@
 // src/config/config.js
 
 // Base API URL from environment variables
-// Local: http://localhost:3001
-// Prod : https://your-backend.onrender.com
+// Development: http://localhost:3001
+// Production: Set REACT_APP_API_URL in deployment environment
 export const API_BASE_URL = process.env.REACT_APP_API_URL;
 
 // Individual API endpoints

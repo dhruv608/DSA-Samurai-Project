@@ -3,8 +3,7 @@ import axios from 'axios';
 import { ClipboardDocumentListIcon, PencilIcon, TrashIcon } from '@heroicons/react/24/outline';
 import EditModal from '../components/EditModal';
 import SearchAndFilter from '../components/SearchAndFilter';
-
-const API_BASE_URL = 'http://localhost:3001';
+import {API_BASE_URL} from '../config/config.js'
 
 // Helper function to identify platform based on URL
 const identifyPlatform = (url) => {

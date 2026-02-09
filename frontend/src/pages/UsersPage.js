@@ -13,8 +13,8 @@ import {
   ChartBarIcon,
   SyncIcon
 } from '@heroicons/react/24/outline';
+import {API_BASE_URL} from '../config/config.js'
 
-const API_BASE_URL = 'http://localhost:3001';
 
 const UsersPage = () => {
   const { accessToken } = useContext(AuthContext);
